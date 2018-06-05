@@ -51,7 +51,7 @@ public class  MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the family View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent familyIntent = new Intent(MainActivity.this, NumbersActivity.class);
+                Intent familyIntent = new Intent(MainActivity.this, FamilyActivity.class);
                 startActivity(familyIntent);
             }
         });
@@ -65,7 +65,7 @@ public class  MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent colorsIntent = new Intent(MainActivity.this, NumbersActivity.class);
+                Intent colorsIntent = new Intent(MainActivity.this, ColorsActivity.class);
                 startActivity(colorsIntent);
             }
         });
@@ -77,7 +77,7 @@ public class  MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent phrasesIntent = new Intent(MainActivity.this, NumbersActivity.class);
+                Intent phrasesIntent = new Intent(MainActivity.this, PhrasesActivity.class);
                 startActivity(phrasesIntent);
             }
         });
